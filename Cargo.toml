@@ -20,7 +20,7 @@ sqlx = { version = "0.5.7", default-features = false, features = [ "runtime-acti
     "postgres",
     "uuid",
     "chrono",
-    "migrate"] }
+    "migrate","offline"] }
 uuid = { version = "0.8.1", features = ["v4"] }
 chrono = "0.4.15"
 tracing = { version = "0.1", features = ["log"] }
